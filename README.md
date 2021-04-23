@@ -27,8 +27,9 @@ This experiment was conducted both in 2018 and in 2019, seeing the production of
 Descriptive statistics techniques were used, in particular:
 <ul>
   <li>Data visualization;</li>
-  <li>Univariate statistical analysis;</li>
-  <li>Bivariate statistical analysis;</li>
+  <li>Univariate descriptive statistics;</li>
+  <li>Bivariate descriptive statistics;</li>
+  <li>Multivariate statistical analysis;</li>
   <li>Cluster analysis.</li>
 </ul>
 </p>
