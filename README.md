@@ -1,35 +1,26 @@
 <h1>
-  Analysis of mobility and road conditions in Italy 
+  Analisi della mobilità e delle condizioni stradali in Italia 
 </h1> 
 
 <p>
-  The objective of this statistical analysis is the study of the quality of mobility and road conditions of the Italian regions, from the point of view of families.
-</p>
+Il progetto rappresenta un'analisa statistica condotta in R su un dataset rappresentativo della mobilità e delle condizioni stradali in Italia nel 2019.
 
-<hr/>
-
-<p>
-The dataset used for this work is taken from the official website of the National Statistical Institute (ISTAT).
-For each region of Italy and autonomous province, a sample of 100 families with the same characteristics was considered, each of which expressed an opinion about:
-
+Il dataset riporta, per ciascuna regione e provincia autonoma d'Italia, la percentuale di famiglie che hanno espresso un grado di insoddisfazione molto alto riguardo alle seguente problematiche:
 <ul>
-  <li>The difficulty in finding parking;</li>
-  <li>The difficulty of connecting with public transport;</li>
-  <li>Traffic;</li>
-  <li>Poor street lighting;</li>
-  <li>Poor road conditions.</li>
+  <li>Difficoltà nel trovare un parcheggio;</li>
+  <li>Difficoltà di collegamento con i mezzi pubblici;</li>
+  <li>Traffico;</li>
+  <li>Scarsa illuminazione stradale;</li>
+  <li>Scarse condizioni stradali.</li>
 </ul>
 
-The constructed dataset reports, for each region, the number of families that have expressed a very high degree of dissatisfaction, regarding the aspects listed above; it is possible to interpret the value of each cell of the dataset as a percentage.
-
-This experiment was conducted both in 2018 and in 2019, seeing the production of two different datasets. The statistical analysis was conducted on the dataset for the year 2019, while the dataset for the year 2018 was considered only to compare it with the dataset for the year 2019. 
-
-Descriptive statistics techniques were used, in particular:
+L'analisi condotta si è concentrata nello specifico sui seguenti aspetti:
 <ul>
-  <li>Data visualization;</li>
-  <li>Univariate descriptive statistics;</li>
-  <li>Bivariate descriptive statistics;</li>
-  <li>Multivariate statistical analysis;</li>
-  <li>Cluster analysis.</li>
+  <li>Data visualization (barplot, boxplot, istogrammi);</li>
+  <li>Confronto con il dataset relativo all'anno 2018 (boxplot ad intaglio);</li>
+  <li>Analisi di Pareto;</li>
+  <li>Statistica descrittiva univariata (funzione di distribuzione empirica continua, media, mediana, classe modale campionarie, mediana per la distribuzione di frequenze, quartili, varianza, deviazione standard, coefficiente di variazione, forma della distribuzione di frequenze);</li>
+  <li>Statistica descrittiva bivariata (scatterplot, covarianza e correlazione campionaria, regressione lineare semplice, regressione lineare multipla, regressione non lineare);</li>
+  <li>Analisi dei cluster (metodi di enumerazione completa, metodi gerarchici, metodi non gerarchici).</li>
 </ul>
 </p>
